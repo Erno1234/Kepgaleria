@@ -1,0 +1,36 @@
+#kozep{
+    margin:auto;
+    max-width: 800px;
+    max-height: 500px;
+    overflow: hidden;
+}
+#kozep figure{
+    position: relative;
+    width: 600%;
+    margin:0%;
+    animation:40s animacio infinite ;
+}
+#kozep figure img{
+    float:left;
+    width: calc(100%/6);
+}
+@keyframes animacio{
+    0%{
+        left:0;
+    }
+    20%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    60%{
+        left: -300%;
+    }
+    80%{
+        left: -400%;
+    }
+    100%{
+        left: -500%;
+    }
+}
